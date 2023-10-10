@@ -74,7 +74,7 @@ def vertex():
 
 def factored():
 
-  a = float(input("\nEnter a: "))
+  a: float = float(input("\nEnter a: "))
   r1 = float(input("\nEnter r1: "))
   r2 = float(input("\nEnter r2: "))
 
