@@ -27,7 +27,7 @@ def info_getter(name_of_var):
 
   try:
     float(user_input)
-    knowns.append(name_of_var)
+    knowns.append((name_of_var, user_input))
     return user_input
   except ValueError:
     if user_input == "":
